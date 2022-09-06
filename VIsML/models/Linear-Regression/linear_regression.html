@@ -1,0 +1,662 @@
+<!--
+
+=========================================================
+* Brainscream 1.0
+=========================================================
+
+* Github Page: 
+
+* Coded by Liming Luo
+=========================================================
+
+-->
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <!-- Primary Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>VisML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Brainscream">
+    <meta name="author" content="Brainscream">
+    <!-- 搜索引擎搜到的网址 -->
+    <link rel="canonical" href="https://themesberg.com/product/ui-kits/neumorphism-ui/" />
+    <!--  Social tags -->
+    <!-- 搜索引擎关键字 -->
+    <meta name="keywords"
+        content="Machine Learning, Deep Learning, AI, Artificial Intelligence, Visualization, tutorial, 机器学习, 深度学习, 人工智能, 可视化, 教程">
+    <!-- 搜索引擎描述 -->
+    <meta name="description" content="可视化的机器学习模型训练工具，一切都在你的浏览器上实现。">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Brainscream">
+    <meta itemprop="description" content="可视化的机器学习模型训练工具，一切都在你的浏览器上实现。">
+    <!-- <meta itemprop="image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg"> -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/logo.png">
+
+    <!-- Fontawesome -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Neumorphism CSS -->
+    <link type="text/css" href="../../assets/css/neumorphism.css" rel="stylesheet">
+    <!-- 自定义CSS
+     -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/datatables.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/datatables.scss" />
+
+
+</head>
+
+<body>
+
+    <!-- 导航栏 -->
+    <header class="header-global">
+        <nav id="navbar-main" aria-label="Primary navigation"
+            class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary">
+            <div class="container position-relative">
+                <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="../index.html">
+                    <img class="navbar-brand-light" src="../../assets/img/logo.png" alt="Brainscream">
+                    <img class="navbar-brand-dark" src="../../assets/img/logo.png" alt="Brainscream">
+                </a>
+                <div class="navbar-collapse collapse" id="navbar_global">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
+                            <div class="col-6 collapse-brand">
+                                <a href="../index.html"
+                                    class="navbar-brand shadow-soft py-2 px-3 rounded border border-light">
+                                    <img src="../../assets/img/brand/dark.svg" alt="Themesberg logo">
+                                </a>
+                            </div>
+                            <div class="col-6 collapse-close">
+                                <a href="#navbar_global" class="fas fa-times" data-toggle="collapse"
+                                    data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
+                                    title="close" aria-label="Toggle navigation"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown">
+                                <span class="nav-link-inner-text">模型训练</span>
+                                <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="linear_regression.html">线性回归</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mega-dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown">
+                                <span class="nav-link-inner-text">AI 教程</span>
+                                <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="row">
+                                    <div class="col-lg-6 inside-bg d-none d-lg-block">
+                                        <div class="justify-content-center bg-primary text-white">
+                                            <div class="px-6 pb-5 pt-3">
+
+                                            </div>
+                                            <div class="z-2 pb-4 text-center">
+                                                <a href="./html/components/all.html"
+                                                    class="btn btn-primary mb-2 mb-sm-0 mr-3 text-secondary">
+                                                    <span class="mr-1"><span class="fas fa-th-large"></span></span>
+                                                    All components
+                                                </a>
+                                                <a href="https://themesberg.com/docs/neumorphism-ui/components/alerts"
+                                                    target="_blank" class="btn btn-primary mb-2 mb-sm-0">
+                                                    <span class="mr-1"><span class="fas fa-book"></span></span>
+                                                    Docs v1.0
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <ul class="list-style-none">
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/accordions.html">Accordions</a></li>
+                                            <li><a class="dropdown-item" href="./html/components/alerts.html">Alerts</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="./html/components/badges.html">Badges</a>
+                                            </li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/bootstrap-carousels.html">Bootstrap
+                                                    Carousels</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/breadcrumbs.html">Breadcrumbs</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/buttons.html">Buttons</a></li>
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://themesberg.com/docs/neumorphism-ui/plugins/jquery-counters/"
+                                                    target="_blank">Counters <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                            <li><a class="dropdown-item" href="./html/components/cards.html">Cards</a>
+                                            </li>
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://themesberg.com/docs/neumorphism-ui/components/e-commerce/"
+                                                    target="_blank">E-commerce <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <ul class="list-style-none">
+                                            <li><a class="dropdown-item" href="./html/components/forms.html">Forms</a>
+                                            </li>
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://themesberg.com/docs/neumorphism-ui/components/icon-boxes/"
+                                                    target="_blank">Icon Boxes <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                            <li><a class="dropdown-item" href="./html/components/modals.html">Modals</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="./html/components/navs.html">Navs</a>
+                                            </li>
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://themesberg.com/docs/neumorphism-ui/plugins/owl-carousel/"
+                                                    target="_blank">Owl Carousels <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/pagination.html">Pagination</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/popovers.html">Popovers</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/progress-bars.html">Progress Bars</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <ul class="list-style-none">
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://themesberg.com/docs/neumorphism-ui/components/icon-boxes/#steps"
+                                                    target="_blank">Steps <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                            <li><a class="dropdown-item" href="./html/components/tables.html">Tables</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="./html/components/tabs.html">Tabs</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="./html/components/toasts.html">Toasts</a>
+                                            </li>
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://themesberg.com/docs/neumorphism-ui/components/timelines/"
+                                                    target="_blank">Timelines <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/tooltips.html">Tooltips</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="./html/components/typography.html">Typography</a></li>
+                                            <li><a class="dropdown-item d-flex align-items-center justify-content-between"
+                                                    href="https://demo.themesberg.com/neumorphism-ui-pro/html/components/widgets.html"
+                                                    target="_blank">Widgets <span
+                                                        class="badge badge-dark ml-3">Pro</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown">
+                                <span class="nav-link-inner-text">Demo展示</span>
+                                <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg">
+                                <div class="col-auto px-0" data-dropdown-content>
+                                    <div class="list-group list-group-flush">
+                                        <a href="https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/"
+                                            target="_blank"
+                                            class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
+                                            <span class="icon icon-sm icon-secondary"><span
+                                                    class="fas fa-file-alt"></span></span>
+                                            <div class="ml-4">
+                                                <span class="text-dark d-block">Documentation<span
+                                                        class="badge badge-sm badge-secondary ml-2">v1.0</span></span>
+                                                <span class="small">Examples and guides</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://github.com/themesberg/th-neumorphism-ui-pro/issues"
+                                            target="_blank"
+                                            class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
+                                            <span class="icon icon-sm icon-secondary"><span
+                                                    class="fas fa-microphone-alt"></span></span>
+                                            <div class="ml-4">
+                                                <span class="text-dark d-block">Support</span>
+                                                <span class="small">Looking for answers? Ask us!</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center">
+                    <!-- <a href="https://themesberg.com/product/ui-kits/neumorphism-ui-pro" target="_blank"
+                        class="btn btn-primary text-secondary mr-3"><i class="far fa-paper-plane mr-2"></i> Github</a> -->
+                    <a href="https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/" target="_blank"
+                        class="btn btn-primary d-none d-md-inline-block"><i class="fab fa-github"></i> Github</a>
+                    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse"
+                        data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- 导航栏结束 -->
+
+
+
+    <!-- 数据条 -->
+    <div id="loading">
+        <button class="btn btn-primary" type="button">
+            <span class="spinner-border spinner-border-sm" role="status"></span>
+            <span class="ml-1">数据加载中...</span>
+        </button>
+    </div>
+
+    <!-- 正文 -->
+    <main id="main">
+
+        <section class="section section bg-soft pb-5 overflow-hidden z-2">
+
+            <div class="container z-2">
+
+                <div class="row justify-content-center text-center pt-5">
+                    <!-- 页面标题 -->
+                    <h1 class="display-3 mb-2">线性回归</h1>
+
+                </div>
+
+                <div>
+
+                    <!-- 第一步:数据导入和处理 -->
+                    <h2 class="display-4 mb-4">1. 数据</h2>
+                    <!-- 垂直标签 -->
+                    <div class="row mb-6">
+                        <div class="col-xl-3">
+                            <!-- 标签选择-->
+                            <ul class="nav nav-pills nav-fill flex-column vertical-tab" id="tab12" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="select-tab" data-toggle="tab" href="#tab-1"
+                                        role="tab" aria-controls="tab-1" aria-selected="true"
+                                        onclick="rechooseData()">选择数据</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="view-tab" data-toggle="tab" href="#tab-2" role="tab"
+                                        aria-controls="tab-2" aria-selected="false">数据表格</a>
+                                </li>
+                                <li class="nav-item">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="info-tab" data-toggle="tab" href="#tab-3" role="tab"
+                                        aria-controls="tab-3" aria-selected="false">数据信息</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="visual-tab" data-toggle="tab" href="#tab-4" role="tab"
+                                        aria-controls="tab-4" aria-selected="false">特征/标签</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="process-tab" data-toggle="tab" href="#tab-5" role="tab"
+                                        aria-controls="tab-5" aria-selected="false">特征关系</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="process-tab" data-toggle="tab" href="#tab-6" role="tab"
+                                        aria-controls="tab-6" aria-selected="false">数据分离</a>
+                                </li>
+                            </ul>
+                            <!-- End of Tab Nav -->
+                        </div>
+                        <div class="col-xl-9">
+                            <!-- Tab Content -->
+                            <div class="card shadow-inset bg-primary border-light p-4 rounded">
+                                <div class="card-body py-0">
+                                    <div class="tab-content" id="tabcontent">
+                                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel"
+                                            aria-labelledby="tab-1">
+
+                                            <!-- 上传数据按钮 -->
+                                            <div>
+                                                <button class="btn btn-primary mr-5 " type="button">
+                                                    <span class="mr-1"><span
+                                                            class="fas fa-cloud-upload-alt"></span></span>
+                                                    上传数据集
+                                                </button>
+                                            </div>
+                                            <!-- 可选数据集 -->
+                                            <div class="row mb-4" id="available_dataset" data-filename="">
+
+                                                <!-- 第一个数据集 -->
+                                                <div class="col-12 col-md-6 pt-4">
+                                                    <div class="card bg-primary border-light shadow-soft">
+                                                        <div class="card-header p-3">
+                                                            <img src="../../assets/img/datasets/houseprice.jpg"
+                                                                class="card-img-top rounded "
+                                                                alt="Air Quality Data Set">
+                                                        </div>
+                                                        <div class="card-body pt-2">
+                                                            <div
+                                                                class="media d-flex align-items-center justify-content-between">
+                                                                <div class="post-group">
+                                                                    <a href="https://www.kaggle.com/datasets/harlfoxem/housesalesprediction"
+                                                                        data-toggle="tooltip" data-placement="top">
+                                                                        Kaggle
+                                                                    </a>
+                                                                </div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <span class="small"><span
+                                                                            class="far fa-calendar-alt mr-2"></span>2016</span>
+                                                                </div>
+                                                            </div>
+                                                            <h3 class="h5 card-title mt-4">House Sales in King County,
+                                                                USA</h3>
+                                                            <p class="card-text">数据集包含了美国华盛顿州金县2014年-2015年的房价数据，共有20个特征。
+                                                            </p>
+                                                            <button href="#" class="btn btn-primary btn-sm"
+                                                                onclick="showData('house_data.csv', 'House Sales in King County')">选取数据集</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 第二个数据集 -->
+                                                <div class="col-12 col-md-6 pt-4">
+                                                    <div class="card bg-primary border-light shadow-soft">
+                                                        <div class="card-header p-3">
+                                                            <img src="../../assets/img/datasets/forest-fire.jpg"
+                                                                class="card-img-top rounded" alt="Air Quality Data Set">
+                                                        </div>
+                                                        <div class="card-body pt-2">
+                                                            <div
+                                                                class="media d-flex align-items-center justify-content-between">
+                                                                <div class="post-group">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top">
+                                                                        UCI Datasets
+                                                                    </a>
+                                                                </div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <span class="small"><span
+                                                                            class="far fa-calendar-alt mr-2"></span>9
+                                                                        Feb 2008</span>
+                                                                </div>
+                                                            </div>
+                                                            <h3 class="h5 card-title mt-4">
+                                                                Forest Fires Data Set</h3>
+                                                            <p class="card-text">数据集包含了13个特征，目的是预测葡萄牙北部区域的森林火灾面积。</p>
+                                                            <a href="#" class="btn btn-primary btn-sm"
+                                                                onclick="showData('forest_fires.csv', 'Forest Fires Data Set')">选取数据集</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- 可选数据集结束-->
+                                        </div>
+                                        <!-- 选择数据结束 -->
+
+                                        <!-- 查看数据表格 -->
+                                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                                            <h2 id="table-title" class="justify-content-center text-center md-6"></h2>
+                                            <div style="width:100%">
+                                                <table id="datatable" class="display" style="width:100%">
+
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <!-- 查看数据信息 -->
+                                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                                            <div style="overflow-x:auto;">
+                                                <table class="table table-striped" id="data_info">
+
+                                                </table>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- 选择特征 -->
+                                        <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
+                                            <h4>选择特征字段：</h4>
+                                            <div id="feature_selection_box">
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <!-- <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Country</label> -->
+                                                <!-- 选择标签字段 -->
+                                                <h4>选择标签字段</h4>
+                                                <select class="custom-select my-1 mr-sm-2" id="label_selection_box">
+                                                    <option selected>选择...</option>
+
+                                                </select>
+                                            </div>
+
+                                            <button class="btn btn-primary text-dark mr-2 mb-2" id="feature_select"
+                                                type="button">确认</button>
+
+                                        </div>
+
+                                        <!-- 特征关系 -->
+                                        <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="tab-5">
+                                            <div style="align-items: center; padding:2%;width: 100%;height: 500px;">
+
+                                                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">特征/标签
+                                                    X：</label>
+                                                <select class="custom-select" id="selection_one" style="width: 30%">
+                                                    <option selected>选择...</option>
+
+
+                                                </select>
+
+                                                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">特征/标签
+                                                    Y：</label>
+                                                <select class="custom-select" id="selection_two" style="width: 30%">
+                                                    <option selected>选择...</option>
+
+
+                                                </select>
+                                                <button id="plotFeatures" class="btn btn-primary text-dark mr-2 mb-2"
+                                                    type="button">确定</button>
+                                                <div id="myPlot" style="margin-top:0.5%"></div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 数据分离 -->
+                                        <div class="tab-pane fade" id="tab-6" role="tabpanel" aria-labelledby="tab-6">
+
+
+                                            <div class="range-slider row mb-4 mb-lg-5" id="slider">
+                                                <span>测试集占比：</span>
+                                                <input class="range-slider__range" type="range" value="0.2" min="0"
+                                                    max="1" step="0.1">
+                                                <span class="range-slider__value">0</span>
+
+
+                                            </div>
+
+                                            <div class="custom-control custom-switc h">
+                                                <input type="checkbox" class="custom-control-input" checked id="customSwitch">
+                                                <label class="custom-control-label" for="customSwitch1">是否打乱数据集</label>
+                                            </div>
+                                            <div style="margin-top:5%">
+                                            <button  class="btn btn-primary text-dark mr-6 mb-6"
+                                                type="button">确定</button></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- 第一部分：数据结束 -->
+
+
+                <!-- 第二部分：模型 -->
+                <div>
+                    <h2 class="display-4 mb-4">2. 模型</h2>
+                    <div class="row mb-4">
+                        <div class="col-xl-3">
+                            <!-- 标签选择-->
+                            <ul class="nav nav-pills nav-fill flex-column vertical-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="param-tab" data-toggle="tab" href="#tab-21"
+                                        role="tab" aria-controls="tab-21" aria-selected="true">调整参数</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="train-tab" data-toggle="tab" href="#tab-23" role="tab"
+                                        aria-controls="tab-23" aria-selected="false">归一化</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="predict-tab" data-toggle="tab" href="#tab-24" role="tab"
+                                        aria-controls="tab-24" aria-selected="false">预测数据</a>
+                                </li>
+                            </ul>
+                            <!-- End of Tab Nav -->
+                        </div>
+                        <div class="col-xl-9">
+                            <!-- Tab Content -->
+                            <div class="card shadow-inset bg-primary border-light p-4 rounded">
+                                <div class="card-body py-0">
+                                    <div class="tab-content" id="tabcontent">
+                                        <!-- 调整参数 -->
+                                        <div class="tab-pane fade show active" id="tab-21" role="tabpanel"
+                                            aria-labelledby="tab-21">
+                                            <div style="display: flex;flex-flow: row wrap;align-items: center;">
+                                                <label for="epoch">训练次数 Epoch：</label>
+                                                <input type="text" class="form-control" id="epch" style="width:6rem">
+                                            </div>
+                                            <div style="display: flex;flex-flow: row wrap;align-items: center; "
+                                                class="pt-4 ">
+                                                <label for="epoch">学习率 Leanrning Rate：</label>
+                                                <input type="text" class="form-control" id="learning-rate"
+                                                    style="width:6rem">
+                                            </div>
+                                            <div class="form-group pt-4">
+                                                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">优化方法</label>
+                                                <select class="custom-select my-1 mr-sm-2" id="norm_select">
+                                                    <option value="min_max" selected>mini-batch gradient decenst
+                                                    </option>
+
+                                                    <option value="z_score">Adam</option>
+                                                    <option value="mean">Momentum</option>
+                                                    <option value="none">无</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- 选择数据结束 -->
+
+                                        <!-- 查看数据 -->
+
+
+
+
+
+
+                                        <div class="tab-pane fade" id="tab-24" role="tabpanel" aria-labelledby="tab-24">
+                                            <button class="btn btn-primary text-dark mr-2 mb-2" type="button"
+                                                id="start">确认</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- 正文结束 -->
+    <!-- 重新选择数据集的弹窗 -->
+    <div id="modal-default">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="h6 modal-title mb-0" id="modal-title-default">注意</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>你要重新选择数据集吗？</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary" onclick="location.reload() ">确认</button>
+                    <button type="button" class="btn btn-primary text-danger ml-auto"
+                        onclick="cancelRechoose()">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <style type="text/css">
+        /* DataTable居中占据100%的空间 */
+        /* div.dataTables_wrapper {
+            width: 100%;
+            margin: 0 auto;
+        } */
+
+        /* 加载条和弹窗默认隐藏，并且页面居中 */
+        #loading,
+        #modal-default {
+            display: none;
+            z-index: 3;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+
+        }
+    </style>
+
+
+    <!-- Core -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/popper.js/2.11.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/headroom/0.12.0/headroom.min.js"></script>
+    <!-- Tensorflow.js -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/tensorflow/3.18.0/tf.min.js"></script>
+    <!-- DataTables.js -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/datatables/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.12.1/api/average().js"></script>
+
+    <!-- Vendor JS -->
+    <!-- <script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script> -->
+    <!-- <script src="./vendor/nouislider/distribute/nouislider.min.js"></script> -->
+    <!-- <script src="./vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script> -->
+    <!-- <script src="./vendor/waypoints/lib/jquery.waypoints.min.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jarallax/2.0.3/jarallax.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.js"></script>
+    <!-- <script src="./vendor/prismjs/prism.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/plotly.js/2.13.3/plotly-basic.min.js"></script>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/Buttons/2.0.0/js/buttons.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <!-- Neumorphism JS -->
+    <script src="../../assets/js/neumorphism.js"></script>
+
+    <!-- Custom -->
+    <!-- <script type="module" src="./js/linear_regression.js"></script> -->
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/normalization.js"></script>
+    <script type="text/javascript" src="./js/ui.js"></script>
+    <script type="module" src="./js/demo.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+</body>
+
+</html>
